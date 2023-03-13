@@ -14,8 +14,6 @@ export const InputWrap = styled.input`
 `
 
 export const Button = styled.button`
-//  padding: 20px 30px;
-//  font-size: 20px;   
     height: 40px;  
     margin-top: 20px;
     margin-bottom: 10px;

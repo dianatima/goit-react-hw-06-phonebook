@@ -12,7 +12,6 @@ export const ContactWrap = styled.div`
      & button {
         height: 25px;
         margin-right: 10px;
-        // font-size: 20px;   
         border-radius: 5px;
         border: none;
         background-color: #03a9f45c;
