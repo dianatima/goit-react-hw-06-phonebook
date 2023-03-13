@@ -2,7 +2,6 @@ import { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { addContact } from "redux/contactSlice";
 import { ContactFormWrap, InputWrap, Button } from "./ContactForm.styled";
-import PropTypes from 'prop-types';
 import { nanoid } from 'nanoid';
 import { getContacts } from "redux/selectors";
 import { toast, ToastContainer } from "react-toastify";
@@ -75,12 +74,3 @@ export function ContactForm() {
        
     )
   }
-
-
-ContactForm.propTypes = {
-  state: PropTypes.objectOf({
-    number: PropTypes.string.isRequired,
-    name: PropTypes.number.isRequired,
-  }),
-  onSubmit: PropTypes.func.isRequired,
-};
